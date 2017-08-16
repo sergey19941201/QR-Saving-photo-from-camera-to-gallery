@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="118.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="66.5dp"
+        android:layout_marginBottom="66.5dp"
+        android:layout_marginLeft="105.5dp"
+        android:layout_marginRight="105.5dp"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="Начать смену"
+                android:layout_width="182dp"
+                android:layout_height="50dp"
+                android:id="@+id/nachatSmenuBn" />
+            <Button
+                android:text="Закончить перерыв"
+                android:layout_width="182dp"
+                android:layout_height="50dp"
+                android:id="@+id/zakonchitPererivBn"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:layout_marginTop="19.5dp">
+            <Button
+                android:text="Начать перерыв"
+                android:layout_width="182dp"
+                android:layout_height="50dp"
+                android:id="@+id/nachatPererivBn" />
+            <Button
+                android:text="Закончить смену"
+                android:layout_width="182dp"
+                android:layout_height="50dp"
+                android:id="@+id/ZakonchitSmenuBn"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

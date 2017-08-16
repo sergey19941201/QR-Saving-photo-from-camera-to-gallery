@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="NikitaEbanat.NikitaEbanat" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<application android:label="NikitaEbanat"></application>
+</manifest>
